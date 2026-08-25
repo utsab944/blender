@@ -77,5 +77,5 @@ jobs:
     - name: Checkout Repository without LFS files
       uses: actions/checkout@v4
       with:
-      # This prevents Git LFS from downloading/smudging large files automatically
-      lfs: false
+        # This prevents Git LFS from downloading/smudging large files automatically
+        lfs: false
